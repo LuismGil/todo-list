@@ -1,0 +1,44 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "name": "configure server",
+      "isComplete": true
+    },
+    {
+      "id": 2,
+      "name": "start server",
+      "isComplete": false
+    },
+    {
+      "id": 3,
+      "name": "Load data into app",
+      "isComplete": true
+    },
+    {
+      "id": 4,
+      "name": "Add records",
+      "isComplete": false
+    },
+    {
+      "id": 5,
+      "name": "update records",
+      "isComplete": false
+    },
+    {
+      "name": "New Todo",
+      "isComplete": false,
+      "id": 6
+    },
+    {
+      "name": "Reload page",
+      "isComplete": false,
+      "id": 7
+    },
+    {
+      "name": "New Todo test message",
+      "isComplete": false,
+      "id": 8
+    }
+  ]
+}

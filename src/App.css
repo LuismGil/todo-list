@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
 }
 
@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,56 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Todo-App {
+  padding-top: 120px;
+  display: inline-block;
+  text-align: left;
+}
+
+input {
+  font-size: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.message {
+  background-color: #61dafb;
+  color: white;
+  border: solid 1px #61dafb;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  left: 50%;
+  margin-left: -100px;
+  top: 200px;
+}
+
+li span.delete-item {
+  visibility: hidden;
+}
+
+span.delete-item button {
+  background: none;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+}
+
+li:hover span.delete-item {
+  visibility: visible;
+}
+
+a {
+  padding-left: 2px;
+  padding-right: 2px;
 }
